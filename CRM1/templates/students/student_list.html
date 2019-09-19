@@ -1,0 +1,40 @@
+{% extends 'students/base.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>student_list</title>
+    {% block link %}
+    <link href="{% static 'students/css/main.css' %}" type="text/css" rel="stylesheet">
+    {% endblock %}
+</head>
+<body>
+{% block content %}
+{{ stus }}
+<table border="1px solid black">
+    <tr>
+        <th>序号</th>
+        <th>姓名</th>
+        <th>年龄</th>
+        <th>性别</th>
+        <th>qq</th>
+        <th>phone</th>
+    </tr>
+    {% for stu in stus %}
+    <tr>
+        <td>{{ forloop.counter }}</td>
+        <td>{{ stu.name }}</td>
+        <td>{{ stu.age }}</td>
+        <td>{{ stu.sex }}</td>
+        <td>{{ stu.qq }}</td>
+        <td>{{ stu.phone }}</td>
+    </tr>
+    {% endfor %}
+</table>
+<div class="ad">
+    {% include 'students/ad.html' %}
+</div>
+{% endblock %}
+</body>
+</html>

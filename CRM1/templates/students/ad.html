@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ad</title>
+    <style type="text/css">
+        #ad:hover{
+            background-color: pink;
+            color: red;
+        }
+    </style>
+    <script type="text/javascript">
+        window.onload = function () {
+            var ad = document.getElementById("ad");
+            ad.onmouseover = function () {
+                ad.className = "hover"
+            };
+            ad.onmouseout = function () {
+                ad.className = ""
+            }
+        };
+    </script>
+</head>
+<body>
+<div id="ad">
+    <h1>这是一个小广告</h1>
+</div>
+</body>
+</html>

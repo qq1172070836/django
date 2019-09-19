@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>student_login</title>
+</head>
+<body>
+<h3>get方式</h3>
+<form action="" method="get">
+    <p>登录名：<input type="text" placeholder="请输入用户名" name="user"></p>
+    <p>密&emsp;码：<input type="password" placeholder="请输入密码" name="password"></p>
+    <p><input type="submit" value="登录"></p>
+    <h4>get_user:{{ get_user }}</h4>
+    <h4>get_password:{{ get_password }}</h4>
+</form>
+<hr>
+<h3>post方式</h3>
+<form action="" method="post">
+    {% csrf_token %}
+    <p>登录名：<input type="text" placeholder="请输入用户名" name="user"></p>
+    <p>密&emsp;码：<input type="password" placeholder="请输入密码" name="password"></p>
+    <p><input type="submit" value="登录"></p>
+    <h4>post_user:{{ post_user  }}</h4>
+    <h4>post_password:{{ post_password }}</h4>
+</form>
+<hr>
+<form action="" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="file">
+    <input type="submit" value="上传">
+</form>
+<hr>
+<h3>cookie，第{{ num }}次访问</h3>
+</body>
+</html>
