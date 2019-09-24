@@ -5,33 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8de4358d-9981-4b4e-b1f7-057a7cfbf667" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CRM1/templates/students/ul.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRM1/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRM1/templatetags/customer_filter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRM1/templatetags/customer_tags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/student/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/student/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/student/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/student/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/student/student_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/student/student_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templatetags/customer_filter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templatetags/customer_tags.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRM1/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CRM1/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRM1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CRM1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRM1/CRM1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CRM1/CRM1/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRM1/students/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CRM1/students/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRM1/students/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CRM1/students/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRM1/teacher/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CRM1/teacher/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRM1/templates/students/student_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CRM1/templates/students/student_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRM1/templates/teacher/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CRM1/templates/teacher/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CRM3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CRM3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRM3/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/CRM3/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRM3/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CRM3/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRM3/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/CRM3/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/student/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/templates/student/student_list.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
-              <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
               <folding>
                 <element signature="e#542#1294#0#HTML" />
               </folding>
@@ -74,25 +48,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/student/student_detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1474">
-              <caret line="67" column="53" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/student/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="45" column="32" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-                <element signature="e#184#227#0" />
-                <element signature="e#260#790#0" />
-                <element signature="e#786#857#0" />
-              </folding>
+            <state relative-caret-position="44">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -158,6 +117,11 @@
             <path>
               <item name="CRM3" type="b2602c69:ProjectViewProjectNode" />
               <item name="CRM3" type="462c0819:PsiDirectoryNode" />
+              <item name="CRM3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CRM3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CRM3" type="462c0819:PsiDirectoryNode" />
               <item name="student" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -210,7 +174,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.views">
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CRM3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/student" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/student/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="CRM3" type="Python.DjangoServer" factoryName="Django server">
       <module name="CRM3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -258,6 +244,11 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
@@ -287,24 +278,23 @@
       <workItem from="1569196959379" duration="2806000" />
       <workItem from="1569199886652" duration="9734000" />
       <workItem from="1569215273310" duration="7581000" />
-      <workItem from="1569282680714" duration="9009000" />
+      <workItem from="1569282680714" duration="10716000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46321000" />
+    <option name="totallyTimeSpent" value="48028000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49691358" visible="true" weight="0.1354009" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49691358" visible="true" weight="0.1354009" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50308645" side_tool="true" weight="0.19894099" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19312602" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.32405892" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33060557" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32733223" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -353,21 +343,8 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/student/views.py</url>
-          <line>45</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/student/views.py</url>
-          <line>46</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CRM3$views.coverage" NAME="views Coverage Results" MODIFIED="1569313267675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/student" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -444,13 +421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/student/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/student/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-574">
@@ -471,57 +441,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CRM3/settings.py">
+    <entry file="file://$PROJECT_DIR$/templates/student/student_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding>
-            <element signature="e#628#660#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="45" column="32" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <element signature="e#184#227#0" />
-            <element signature="e#260#790#0" />
-            <element signature="e#786#857#0" />
-          </folding>
+        <state relative-caret-position="1474">
+          <caret line="67" column="53" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/student/student_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
           <folding>
             <element signature="e#542#1294#0#HTML" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/student/student_detail.html">
+    <entry file="file://$PROJECT_DIR$/student/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1474">
-          <caret line="67" column="53" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+        <state relative-caret-position="209">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding>
+            <element signature="e#628#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRM3/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
         </state>
       </provider>
     </entry>

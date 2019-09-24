@@ -53,8 +53,9 @@ def student_add(request):
             'grade_id': request.POST.get('grade_id'),
         }
         stu = Student.objects.create(**data)
+        # print(stu)
         StudentDetail.objects.create(
             college=request.POST.get('college'),
-            stu=stu,
+            student=stu,
         )
         return redirect('student:student_list')
