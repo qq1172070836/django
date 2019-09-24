@@ -5,7 +5,11 @@ from django.db import models
 class Student(models.Model):
     name = models.CharField(max_length=20)
     age = models.SmallIntegerField(null=True)
-    sex = models.SmallIntegerField(default=1)
+    SET_CHOICES = (
+        [0, '女'],
+        [1, '男']
+    )
+    sex = models.SmallIntegerField(choices=SET_CHOICES, default=1)
     qq = models.CharField(max_length=20, unique=True)
     phone = models.CharField(max_length=20, unique=True)
     c_time = models.DateTimeField(auto_now_add=True)

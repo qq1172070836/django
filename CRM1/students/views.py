@@ -4,7 +4,7 @@ from datetime import datetime
 from django.shortcuts import render
 
 from CRM1.settings import MEDIA_ROOT
-from .models import Student
+from .models import Student, Course
 
 # Create your views here.
 
@@ -20,6 +20,7 @@ def login(request):
         # 当天上传的文件放到当天文件夹
         date_dir = datetime.now().strftime('%Y%m%d')
         dir_path = os.path.join(MEDIA_ROOT, date_dir)
+        print(dir_path)
         print(dir_path)
         if not os.path.exists(dir_path):
             os.mkdir(dir_path)
@@ -46,6 +47,10 @@ def login(request):
 
 def student_list(request):
     stus = Student.objects.all()
+    cous = Course.objects.all()
+    flag = 'a'
     return render(request, 'students/student_list.html', {
         'stus': stus,
+        'cous': cous,
+        'flag': flag,
     })

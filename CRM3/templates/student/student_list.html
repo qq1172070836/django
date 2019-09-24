@@ -1,0 +1,38 @@
+{% extends 'student/base.html' %}
+{% load customer_filter %}
+{% block title %}student_list{% endblock %}
+{% block section %}{{ section }}{% endblock %}
+{% block content %}
+    <form class="form-inline">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="请输入姓名，qq或电话" name="search">
+        </div>
+        <button type="submit" class="btn btn-default">查询</button>
+        <button type="reset" class="btn btn-primary">重置</button>
+        <a href="{% url 'student:student_add' %}" class="btn btn-primary">添加</a>
+    </form>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>序号</th>
+                <th>姓名</th>
+                <th>性别</th>
+                <th>qq</th>
+                <th>电话</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for stu in stus %}
+                <tr>
+                    <td><a href="{% url 'student:student_detail' stu.id %}">{{ forloop.counter }}</a></td>
+                    <td>{{ stu.name }}</td>
+                    <td>{{ stu.sex| show_sex }}</td>
+                    <td>{{ stu.qq }}</td>
+                    <td>{{ stu.phone }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

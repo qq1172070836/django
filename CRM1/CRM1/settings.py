@@ -68,6 +68,10 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
+            'libraries': {
+                'customer_filter': 'templatetags.customer_filter',
+                'customer_tags': 'templatetags.customer_tags',
+            }
         },
     },
 ]

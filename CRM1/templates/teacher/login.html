@@ -1,4 +1,5 @@
 {% load static %}
+{% load customer_tags %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,6 +42,9 @@
     <hr>
     <h3>模板过滤器date</h3>
     <p>现在时间：{{ now1|date:'Y年m月d日 H:i:s' }}</p>
+    <hr>
+    <h3>自定义标签show_time</h3>
+    <p>现在时间：{% show_time %}</p>
     <hr>
 </div>
 <form class="form-signin">

@@ -1,0 +1,19 @@
+{% if flag == 'ul' %}
+<ul class="list-group">
+    {% for cou in cous %}
+        <li class="list-group-item">{{ cou }}</li>
+    {% endfor %}
+</ul>
+{% elif flag == 'a' %}
+<div class="list-group">
+    {% for cou in cous %}
+        <a href="#" class="list-group-item">{{ cou }}</a>
+    {% endfor %}
+</div>
+{% else %}
+<div class="list-group">
+    {% for cou in cous %}
+        <button type="button" class="list-group-item">{{ cou }}</button>
+    {% endfor %}
+</div>
+{% endif %}

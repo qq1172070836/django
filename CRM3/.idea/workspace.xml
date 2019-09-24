@@ -1,15 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/templates/student/base.html" line="63" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8de4358d-9981-4b4e-b1f7-057a7cfbf667" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRM1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../笔记/1_虚拟环境命令，django命令.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../笔记/2_视图，路由.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRM1/templates/students/ul.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRM1/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRM1/templatetags/customer_filter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRM1/templatetags/customer_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/student/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/student/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/student/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/student/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/student/student_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/student/student_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templatetags/customer_filter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templatetags/customer_tags.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CRM1/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CRM1/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CRM1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CRM1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CRM1/CRM1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CRM1/CRM1/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CRM1/students/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CRM1/students/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CRM1/students/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CRM1/students/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CRM1/teacher/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CRM1/teacher/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CRM1/templates/students/student_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CRM1/templates/students/student_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CRM1/templates/teacher/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CRM1/templates/teacher/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CRM3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CRM3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM3/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/CRM3/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM3/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CRM3/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM3/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/CRM3/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +39,101 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="CRM3" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/student/student_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+              <folding>
+                <element signature="e#542#1294#0#HTML" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/student/student_detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1474">
+              <caret line="67" column="53" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/student/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="45" column="32" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#184#227#0" />
+                <element signature="e#260#790#0" />
+                <element signature="e#786#857#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CRM3/urls.py" />
+        <option value="$PROJECT_DIR$/static/student/css/bootstrap.ts" />
+        <option value="$PROJECT_DIR$/static/student/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/static/student/css/main.css" />
+        <option value="$PROJECT_DIR$/templates/student/index.html" />
+        <option value="$PROJECT_DIR$/CRM3/__init__.py" />
+        <option value="$PROJECT_DIR$/static/student/js/main.js" />
+        <option value="$PROJECT_DIR$/templatetags/customer_tags.py" />
+        <option value="$PROJECT_DIR$/templatetags/customer_filter.py" />
+        <option value="$PROJECT_DIR$/templates/student/base.html" />
+        <option value="$PROJECT_DIR$/CRM3/settings.py" />
+        <option value="$PROJECT_DIR$/student/models.py" />
+        <option value="$PROJECT_DIR$/templates/student/student_list.html" />
+        <option value="$PROJECT_DIR$/templates/student/student_detail.html" />
+        <option value="$PROJECT_DIR$/student/urls.py" />
+        <option value="$PROJECT_DIR$/student/views.py" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="875" />
@@ -32,6 +147,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -42,17 +158,28 @@
             <path>
               <item name="CRM3" type="b2602c69:ProjectViewProjectNode" />
               <item name="CRM3" type="462c0819:PsiDirectoryNode" />
+              <item name="student" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CRM3" type="b2602c69:ProjectViewProjectNode" />
               <item name="CRM3" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CRM3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CRM3" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="student" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
@@ -60,8 +187,16 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\django\CRM3\student" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -82,15 +217,16 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="CRM3.settings" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="sftp://pyvip@127.0.0.1:8888/home/pyvip/.virtualenvs/djangoApp3/bin/python3" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
-      <option name="host" value="127.0.0.1" />
+      <option name="host" value="0.0.0.0" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
       <option name="runTestServer" value="false" />
@@ -99,6 +235,36 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <module name="CRM3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://pyvip@127.0.0.1:8888/home/pyvip/.virtualenvs/djangoApp3/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="0.0.0.0" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://0.0.0.0:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -107,38 +273,257 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569108165874</updated>
-      <workItem from="1569108168588" duration="132000" />
+      <workItem from="1569108168588" duration="309000" />
+      <workItem from="1569108500310" duration="433000" />
+      <workItem from="1569108957633" duration="519000" />
+      <workItem from="1569109511176" duration="196000" />
+      <workItem from="1569109740374" duration="394000" />
+      <workItem from="1569110305820" duration="1286000" />
+      <workItem from="1569167884559" duration="6500000" />
+      <workItem from="1569174422742" duration="667000" />
+      <workItem from="1569189584216" duration="5716000" />
+      <workItem from="1569195459611" duration="787000" />
+      <workItem from="1569196556294" duration="384000" />
+      <workItem from="1569196959379" duration="2806000" />
+      <workItem from="1569199886652" duration="9734000" />
+      <workItem from="1569215273310" duration="7581000" />
+      <workItem from="1569282680714" duration="9009000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132000" />
+    <option name="totallyTimeSpent" value="46321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17700455" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49691358" visible="true" weight="0.1354009" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="File Transfer" visible="true" weight="0.3289689" />
+      <window_info id="Favorites" order="2" sideWeight="0.50308645" side_tool="true" weight="0.19894099" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19312602" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.32405892" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="right" id="Remote Host" visible="true" weight="0.32980332" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="File Transfer" order="8" weight="0.15057284" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" weight="0.47954175" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.32569557" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="14" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.10665658" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32980332" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49691358" visible="true" weight="0.1354009" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.50308645" side_tool="true" weight="0.19894099" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19312602" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="File Transfer" order="8" weight="0.15057284" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" weight="0.47954175" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.32569557" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="14" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.10665658" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32980332" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/student/views.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/student/views.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>request.GET.get('search')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request.GET.get('search').name</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request.GET.get(search)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/student/css/bootstrap.ts" />
+    <entry file="file://$PROJECT_DIR$/static/student/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/student/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CRM1/students/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="42" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRM3/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/student/js/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="34" selection-start-line="7" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templatetags/customer_tags.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templatetags/customer_filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/student/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-574">
+          <caret line="29" column="111" selection-start-line="29" selection-start-column="111" selection-end-line="29" selection-end-column="111" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRM3/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding>
+            <element signature="e#628#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRM3/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding>
+            <element signature="e#628#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="45" column="32" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#184#227#0" />
+            <element signature="e#260#790#0" />
+            <element signature="e#786#857#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/student/student_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <element signature="e#542#1294#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/student/student_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1474">
+          <caret line="67" column="53" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
