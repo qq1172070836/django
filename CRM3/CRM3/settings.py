@@ -67,6 +67,7 @@ TEMPLATES = [
             ],
             'libraries': {
                 'customer_filter': 'templatetags.customer_filter',
+                'customer_tags': 'templatetags.customer_tags',
             }
         },
     },

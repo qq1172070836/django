@@ -13,6 +13,7 @@
     <title>{% block title %}base{% endblock %}</title>
 
     {% block link %}{% endblock %}
+    {% block script %}{% endblock %}
     <!-- Bootstrap core CSS -->
     <link href="{% static 'student/css/bootstrap.css' %}" rel="stylesheet">
 
@@ -39,8 +40,12 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#">后台</a></li>
                 <li><a href="#">设置</a></li>
-                <li><a href="#">学院</a></li>
-                <li><a href="#">退出</a></li>
+                <li><a href="#">欢迎{{ name }}</a></li>
+                {% if request.session.name %}
+                <li><a href="{% url 'student:logout' %}">退出</a></li>
+                {% else %}
+                <li><a href="{% url 'student:login' %}">登录</a></li>
+                {% endif %}
             </ul>
         </div>
     </div>

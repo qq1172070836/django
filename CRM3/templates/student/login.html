@@ -1,0 +1,33 @@
+{% extends 'student/base.html' %}
+{% load static %}
+{% block title %}login{% endblock %}
+{% block link %}
+    {% static 'student/css/login.css' %}
+{% endblock %}
+{% block script %}
+    <script src="{% static 'student/js/login.js' %}"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+{% endblock %}
+{% block section %}登录窗口{% endblock %}
+{% block content %}
+    <div class="container" style="width: 400px">
+        <form class="form-signin" method="post" action="">
+            {% csrf_token %}
+            <h2 class="form-signin-heading">请登录</h2>
+            <label for="inputUser" class="sr-only">用户名：</label>
+            <input type="text" id="inputUser" class="form-control" placeholder="请输入用户名" name="user" required autofocus>
+            <label for="inputPassword" class="sr-only">密&emsp;码：</label>
+            <input type="password" id="inputPassword" class="form-control" placeholder="请输入密码" name="password" required>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value="remember-me"> 记住密码
+                </label>
+            </div>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">登录</button>
+        </form>
+    </div> <!-- /container -->
+{% endblock %}

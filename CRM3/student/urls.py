@@ -22,7 +22,11 @@ app_name = 'student'
 
 urlpatterns = [
     path('base/', views.base),
+    path('login/', views.login, name='login'),
+    path('logout/', views.logout, name='logout'),
     path('student_list/', views.student_list, name='student_list'),
     path('student_detail/<pk>/', views.student_detail, name='student_detail'),
     path('student_add/', views.student_add, name='student_add'),
+    path('student_del/<pk>/', views.student_del, name='student_del'),
+    path('student_edit/<pk>/', views.student_edit, name='student_edit'),
 ]

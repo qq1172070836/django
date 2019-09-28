@@ -2,7 +2,7 @@
 {% block title %}student_detail{% endblock %}
 {% block section %}{{ section }}{% endblock %}
 {% block content %}
-    <form class="form-horizontal">
+    <form class="form-horizontal" method="post">
     {% csrf_token %}
         <div class="form-group">
             <label for="name" class="col-sm-2 control-label">姓名</label>
