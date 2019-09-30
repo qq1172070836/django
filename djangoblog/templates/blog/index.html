@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load customer_tags %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -19,13 +20,39 @@
 </div>
 <div class="container page-body">
     <div class="col-md-9">
-            <h2>{{ article.title }}</h2>
-            <p>{{ article.content }}</p>
+        {% for article in articles %}
+            <h3><a href="/blog/detail/{{ article.id }}/">{{ article.title }}</a></h3>
+            <p>{{ article.overview }}</p>
+        {% endfor %}
+        <div class="btn-group">
+            <nav aria-label="Page navigation">
+                {% page_html %}
+            </nav>
+        </div>
+        <div class="btn-group dropup" style="margin-top: -5px">
+            <button type="button" class="btn btn-default">{{ per_page }}条/页</button>
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false" name="per_page">
+                <span class="caret"></span>
+                <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="{{ request.path }}?per_page=3">3条每页</a></li>
+                <li><a href="{{ request.path }}?per_page=5">5条每页</a></li>
+                <li><a href="{{ request.path }}?per_page=10">10条每页</a></li>
+            </ul>
+        </div>
     </div>
     <div class="col-md-3">
-        <h2>最新文章</h2>
-        <h4><a href="#">{{ article.title }}</a></h4>
+        <h3>最新文章：top5</h3>
+        {% for article in top5_articles %}
+            <h4><a href="/blog/detail/{{ article.id }}/">{{ article.title }}</a></h4>
+        {% endfor %}
     </div>
 </div>
+<!-- 下拉菜单不显示移入的库 -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/popper.js/1.15.0/umd/popper.min.js"></script>
+<script src="https://cdn.bootcss.com/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>

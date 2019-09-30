@@ -5,28 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8de4358d-9981-4b4e-b1f7-057a7cfbf667" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/student/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/student/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/student/page_html.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoblog/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoblog/.idea/djangoblog.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoblog/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoblog/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoblog/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoblog/blog/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoblog/djangoblog/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoblog/templates/blog/hello_world.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoblog/templates/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CRM/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoblog/data/article/Django Admin模块.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoblog/data/article/Django 中间件.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoblog/data/article/Django 国际化.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoblog/data/article/Django 框架入门.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoblog/data/article/Django 框架简介.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoblog/data/article/Django 模型.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoblog/data/article/Django 模板.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoblog/data/article/Django 视图和URL配置.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoblog/data/article/Django 输出.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoblog/data/article/Django 通用视图.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoblog/tools/import_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRM3/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CRM3/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/student/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/student/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/student/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/student/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/student/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/student/student_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/student_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/student/student_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/student_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templatetags/customer_tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/templatetags/customer_tags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djangoblog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../djangoblog/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djangoblog/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../djangoblog/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djangoblog/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../djangoblog/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djangoblog/blog1/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djangoblog/blog1/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djangoblog/blog1/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djangoblog/blog1/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djangoblog/blog1/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djangoblog/blog1/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djangoblog/blog1/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djangoblog/templates/blog/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../djangoblog/templates/blog/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djangoblog/templates/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../djangoblog/templates/blog/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,11 +58,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/student/student_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1034">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="-298">
+              <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/student/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+              <folding>
+                <element signature="e#628#660#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,10 +88,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/student/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
+            <state relative-caret-position="308">
               <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
             </state>
           </provider>
@@ -86,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/student/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="10" selection-start-line="10" selection-end-line="20" selection-end-column="43" />
+            <state relative-caret-position="1188">
+              <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
                 <element signature="e#238#281#0" />
@@ -153,6 +167,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,7 +190,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -188,7 +202,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="D:/python/python小项目/pdf_excel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../djangoblog" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -294,16 +308,18 @@
       <workItem from="1569464898785" duration="7902000" />
       <workItem from="1569568067924" duration="13000" />
       <workItem from="1569649668649" duration="560000" />
+      <workItem from="1569814910002" duration="63000" />
+      <workItem from="1569828849215" duration="56000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83137000" />
+    <option name="totallyTimeSpent" value="83256000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49691358" visible="true" weight="0.17549168" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49691358" visible="true" weight="0.18003026" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50308645" side_tool="true" weight="0.19894099" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -497,20 +513,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/student/login1.html" />
-    <entry file="file://$PROJECT_DIR$/student/urls.py">
+    <entry file="file://$PROJECT_DIR$/templates/student/student_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-          <folding>
-            <element signature="e#628#660#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-298">
+          <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/student/student_list.html">
+    <entry file="file://$PROJECT_DIR$/student/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="594">
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+          <folding>
+            <element signature="e#628#660#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -521,24 +537,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/student/views.py">
+    <entry file="file://$PROJECT_DIR$/templates/student/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" selection-start-line="10" selection-end-line="20" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-            <element signature="e#238#281#0" />
-          </folding>
+        <state relative-caret-position="308">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/student/login.html">
+    <entry file="file://$PROJECT_DIR$/student/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        <state relative-caret-position="1188">
+          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
           <folding>
-            <element signature="e#645#665#0#HTML" expanded="true" />
-            <element signature="e#1061#1067#0#HTML" expanded="true" />
+            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#238#281#0" />
           </folding>
         </state>
       </provider>
