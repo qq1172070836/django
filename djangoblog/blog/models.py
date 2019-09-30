@@ -8,3 +8,6 @@ class Article(models.Model):
     overview = models.TextField()
     content = models.TextField()
     publish_date = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return self.title

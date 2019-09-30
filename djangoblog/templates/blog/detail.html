@@ -13,19 +13,11 @@
 </head>
 <body>
 <div class="container page-header">
-    <h1>Django实现blog
-        <small>——bylinlin</small>
-    </h1>
+    <h1>文章详情</h1>
 </div>
 <div class="container page-body">
-    <div class="col-md-9">
-            <h2>{{ article.title }}</h2>
-            <p>{{ article.content }}</p>
-    </div>
-    <div class="col-md-3">
-        <h2>最新文章</h2>
-        <h4><a href="#">{{ article.title }}</a></h4>
-    </div>
+        <h2>{{ article.title }}</h2>
+        <p>{{ article.overview }}</p>
 </div>
 </body>
 </html>
